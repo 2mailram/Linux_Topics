@@ -14,6 +14,7 @@ Os Architecture - HW, SW, Drivers
 - Networking Concepts
 - ssh - authentication, password less authentication, rsync, scp
 - Package Management 
+- Yum Repo configuartion
 - Package Installation RPM YUM
 - Service Management 
 - cron Managemet 
