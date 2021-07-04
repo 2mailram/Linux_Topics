@@ -5,7 +5,9 @@ Os Architecture - HW, SW, Drivers
 - Directory Architecture
 - User Management
 - Basic Commands
+- File compression
 - Administrative Command's
+- Process Managment
 - File Permission's
 - File Management
 - ACL
@@ -25,4 +27,5 @@ Os Architecture - HW, SW, Drivers
 - Java Installation 
 - Tomcat Installation, Deploy application
 - OS tuning 
+- Run Levels
 - Kernal - Parameter
