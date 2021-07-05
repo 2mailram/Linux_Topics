@@ -1,1 +1,8 @@
-Install Virtual Box and Configure VM By own
+- Install Virtual Box and Configure VM
+
+- create users stev, jhon and peter
+- set password for all above users
+- create groups dev, admin and appusers
+- modify stev groups to admin
+- jhoun will be member to dev groups
+- peter will be member of dev and appusers
