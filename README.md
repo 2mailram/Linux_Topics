@@ -4,7 +4,7 @@ Os Architecture - HW, SW, Drivers - 30 min
 - Os Installation 2 hr
 - Directory Architecture 30 Min
 - User Management 1 hr
-- Editors 15 Min
+- Editor 15 Min
 - Basic Commands 2 hr
 - File compression 30 Min
 - Administrative Command's 2 hr
