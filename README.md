@@ -31,3 +31,6 @@ Os Architecture - HW, SW, Drivers - 30 min
 - Ip-Tables 1 hr
 - selinux 30 min
 - Kickstart 1 hr
+
+
+Assume 40hrs 
