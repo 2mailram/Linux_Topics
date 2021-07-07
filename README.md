@@ -27,6 +27,7 @@ Os Architecture - HW, SW, Drivers - 30 min
 - Httpd 2 hr
 - FTP 1 hr
 - NTPD 30 min
+- NFS 30min
 - Java Installation 30 min 
 - Tomcat Installation, Deploy application 1 hr
 - OS tuning 30 min
