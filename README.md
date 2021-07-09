@@ -10,6 +10,7 @@ Os Architecture - HW, SW, Drivers - 30 min
 - Basic Commands 2 hr
 - File compression 30 Min
 - Administrative Command's 2 hr
+- Logs 15 Min
 - Alias Commands 20Min
 - Process Managment 1 hr
 - File Permission's and Management 3 hr
