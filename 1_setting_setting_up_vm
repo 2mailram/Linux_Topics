@@ -1,0 +1,5 @@
+- Install Virtual Box and Configure VM with custom lvm partition 
+- Update VM host with latest security patches
+- Install VM extension pack and drivers
+
+Ref : https://github.com/2mailram/notes/blob/main/mynotes
