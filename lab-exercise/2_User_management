@@ -1,0 +1,6 @@
+- create users stev, jhon and peter
+- set password for all above users
+- create groups dev, admin and appusers
+- modify stev groups to admin
+- jhon will be member to dev groups
+- peter will be member of dev and appusers
