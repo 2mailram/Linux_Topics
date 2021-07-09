@@ -1,5 +1,5 @@
 # Linux_Topics
-Os Architecture - HW, SW, Drivers - 30 min
+- Os Architecture - HW, SW, Drivers - 30 min
 - Introduction to Linux and Unix platforms
 - Linux GUI and CLI
 - Virtual Box installation and configuration 30 Min
