@@ -5,7 +5,7 @@
 - Virtual Box installation and configuration 30 Min
 - VM Setup using Vagrant - Lab setup
 - Directory Architecture 30 Min
-- User Management 1 hr
+- User Management 2 hr
 - Editor 15 Min
 - Basic Commands 2 hr
 - File compression 30 Min
