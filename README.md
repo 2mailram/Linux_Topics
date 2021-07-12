@@ -2,7 +2,7 @@
 - Os Architecture - HW, SW, Drivers - 30 Min
 - Introduction to Linux and Unix platforms 30 Min
 - Linux GUI and CLI - 30 Min
-- Virtual Box installation and configuration 30 Min
+- Virtual Box installation 10 Min
 - VM Setup using Vagrant - Lab setup
 - Directory Architecture 30 Min
 - User Management 2 hr
@@ -39,7 +39,7 @@
 - Kernal - Parameter 30 min
 - Ip-Tables 1 hr
 - selinux 30 min
-- Os Installation GUI
+- VM configuration and Os Installation GUI 
 - Kickstart 1 hr
 
 
