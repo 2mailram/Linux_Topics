@@ -13,6 +13,8 @@
 - Logs 15 Min
 - Alias Commands 20Min
 - Process Managment 1 hr
+- Fg & BG Process 30 Min 
+- Screen Commands - 30 Min
 - File Permission's and Management 3 hr
 - ACL - 1 hr
 - Links - Hard link, soft link 30 Min 
