@@ -4,3 +4,6 @@
 - modify stev groups to admin
 - jhon will be member to dev groups
 - peter will be member of dev and appusers
+- set password age for jhon user for 30 days
+- set password ask for reset on stev first login
+- remove the users completely with home dir
