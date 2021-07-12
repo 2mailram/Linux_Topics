@@ -4,7 +4,7 @@
 - Linux GUI and CLI - 30 Min
 - Virtual Box installation 10 Min
 - VM Setup using Vagrant - Lab setup
-- Directory Architecture 30 Min
+- Directory Architecture & Paths 30 Min
 - User Management 2 hr
 - Editor 15 Min
 - Basic Commands 2 hr
