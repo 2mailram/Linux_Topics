@@ -3,7 +3,7 @@
 - Introduction to Linux and Unix platforms 30 Min
 - Linux GUI and CLI - 30 Min
 - Virtual Box installation and configuration 30 Min
-- Os Installation 2 hr
+- VM Setup using Vagrant - Lab setup
 - Directory Architecture 30 Min
 - User Management 1 hr
 - Editor 15 Min
@@ -25,6 +25,7 @@
 - Service Management 1 hr
 - cron Managemet 1 hr
 - Shell script 4 hr
+- Git 2 hr
 - Httpd 2 hr
 - FTP 1 hr
 - NTPD 30 min
@@ -36,7 +37,8 @@
 - Kernal - Parameter 30 min
 - Ip-Tables 1 hr
 - selinux 30 min
+- Os Installation GUI
 - Kickstart 1 hr
 
 
-Assume 40hrs 
+Assume 45hrs 
