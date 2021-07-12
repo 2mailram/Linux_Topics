@@ -1,3 +1,11 @@
-- create directory under your home directory application
-- create directory under /tmp/scriptfiles/dynamic
+- create demo_dir under /tmp/
+- create directory under /tmp/scriptfiles/dynamic in one command
 - create  10 files under   /tmp/scriptfiles/dynamic/file_1_to_10
+- create folder in your home dir as app_folder
+- rename the folder app_folder to application
+- create folder in home dir as source_code
+- create index.php about.php index.html lala.mp3 woooww.jpg in source_code folder
+- copy only .php files from source_code to application folder
+- create dir name as misc and mydata in your home dir
+- move .mp3 and .jpg file from source_code folder to misc folder
+- delete .html in source_code folder
