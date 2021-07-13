@@ -6,6 +6,7 @@
 - VM Setup using Vagrant - Lab setup
 - Directory Architecture & Paths 30 Min
 - User Management 2 hr
+- sudo - privileged users 1 hrs
 - Editor 15 Min
 - Basic Commands 2 hr
 - File compression 30 Min
