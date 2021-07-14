@@ -3,3 +3,4 @@
 - create user mac
 - provide admin permission to winwin user
 - provide only permission to mac to reboot, shutdown permission
+- configure your own user as system admin with no password
