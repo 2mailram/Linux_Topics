@@ -1,0 +1,20 @@
+- Create directory in single command /tmp/demo/script
+- Create 20 files under /tmp/demo/script
+- copy random text content and paste under /tmp/demo/mytext.txt
+- grep a pattern "the" from text file
+- read the complete file use cat, less, more, view
+- redirect all users information to /tmp/demo/userslist
+- read only lines with content 1000+  from /tmp/demo/userslist
+- read first 10 lines from userlist and redirect to /tmp/demo/head10lines
+- read last 10 lines from userlist and redirect to /tmp/demo/tail10lines
+- print your username in /tmp/username
+- redirect storage,ram status in /tmp/systemstatus
+- redirect following information to your home directory in single file using "">>"" mysystem_information
+            - ip address
+            - date
+            - time
+            - uesr name
+            - storage
+            - hostname
+        end with "====================="
+            
