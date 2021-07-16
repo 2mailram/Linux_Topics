@@ -43,5 +43,19 @@
 - VM configuration and Os Installation GUI 
 - Kickstart 1 hr
 
+<pre><code class="line-numbers">
+/**
+ * Example Code.
+ */
+function my_example_code($line_numbers = TRUE) {
+  $message = 'This example code does';
+  $message .= ($line_numbers ? '' : ' not');
+  $message .= ' have line numbers.';
+
+  return $message;
+}
+
+print my_example_code(TRUE);
+</code></pre>
 
 Assume 45hrs 
