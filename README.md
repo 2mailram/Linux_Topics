@@ -8,9 +8,9 @@
 - User Management 2 hr
 - sudo - privileged users 1 hrs
 - Editor 15 Min
-- Basic Commands 2 hr
+- Basic Commands 4 hr
 - File compression 30 Min
-- Administrative Command's 2 hr
+- Administrative Command's 4 hr
 - Logs 15 Min
 - Alias Commands 20Min
 - Process Managment 1 hr
@@ -42,4 +42,6 @@
 - selinux 30 min
 - VM configuration and Os Installation GUI 
 - Kickstart 1 hr
-Assume 45hrs 
+
+
+Assume 50hrs 
