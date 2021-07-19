@@ -6,4 +6,6 @@
 - make the background process to foreground  (sleep 5000)
 - create another process with 5000s as foreground
 - redirect all fg and bg jobs to /tmp/process_list_(custome_date_format).log
- 
+- use top command to see all process utilisation
+- kill the process which you created with 3000s using kill command
+- kill the process which you created with 5000s using top command
