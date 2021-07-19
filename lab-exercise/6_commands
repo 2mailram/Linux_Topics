@@ -1,0 +1,9 @@
+- create process using sleep command with 3000s in foreground
+- in another terminal create process using sleep command with 5000s in background
+- in 3rd terminal check all sleep process id
+- renice the sleep 3000 command process to -15
+- make the foreground process to background  (sleep 3000)
+- make the background process to foreground  (sleep 5000)
+- create another process with 5000s as foreground
+- redirect all fg and bg jobs to /tmp/process_list_(custome_date_format).log
+ 
