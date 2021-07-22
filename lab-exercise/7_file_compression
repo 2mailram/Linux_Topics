@@ -1,0 +1,8 @@
+- create dir in Desktop with name store
+- create multiple files in store dir 
+- compress the folder using zip and gzip
+- compress the folder using tar with gz compression technique
+- copy the compressed folder to /tmp/workarea - create workarea before 
+- extract the compressed file
+- create crontab to compress file daily at 5 AM
+- create contab to move compressed file to /tmp/backup folder - create backup folder if not exist 
