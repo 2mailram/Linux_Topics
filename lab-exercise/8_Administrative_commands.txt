@@ -1,0 +1,10 @@
+- list nunmber of ssh active connections
+- create alias command to list of files using l 
+- list environmental variabls from terminal
+- what are the commands used to load bash file to get publish
+- what command to verify the port 22 able to listen 
+- how to get fqdn name or ip address for google.com
+- filter the process that contains letter with x
+- how to find process id with the port numner 
+- waht is the defualt location for storing logs
+- what command used to install packge from locally
