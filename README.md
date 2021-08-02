@@ -24,7 +24,7 @@
 - ssh - authentication, password less authentication, rsync, scp 2 hr
 - Package Management 1 hr
 - Yum Repo configuartion 1 hr
-- Package Installation RPM YUM 30 Min
+- Package Installation RPM YUM 1 hr
 - Service Management 1 hr
 - cron Managemet 1 hr
 - Shell script 4 hr
