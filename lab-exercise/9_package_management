@@ -1,0 +1,6 @@
+- create yum repo config file for kubernets
+- Install httpd package using YUM
+- uninstall httpd package using YUM
+- Install httpd package using RPM
+- Uninstall httpd package using RPM
+- verify the sshd package installed in your linux host
