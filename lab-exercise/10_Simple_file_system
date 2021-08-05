@@ -1,0 +1,9 @@
+- become as root
+- attach 20GB of additional storage to virtual box
+- understand the fstab content
+- create simple partition with 2GB with new hard disk as primary and format with xfs file system then mount in /apps1
+- create simple partition with 2GB with new hard disk as primary and format with xfs file system then mount in /apps2
+- create simple partition with 2GB with new hard disk as primary and format with xfs file system then mount in /apps3
+- create extended partition for remaining space 
+- create simple partition with 2GB with new hard disk as extended and format with xfs file system then mount in /apps4
+- make sure all the partition mount permanent
