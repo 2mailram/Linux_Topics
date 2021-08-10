@@ -37,6 +37,7 @@ mkdir /mysql_apps
 	add entry in fstab 
 		/dev/mapper/mysql_vg_01-mysql_lv_01     /mysql_apps     xfs     defaults        0       0
 mount -a
+df -h | lsblk
 ================
 lvextend -L+2G /dev/mapper/mysql_vg_01-mysql_lv_01
 resize2fs  /dev/mapper/mysql_vg_01-mysql_lv_01	
