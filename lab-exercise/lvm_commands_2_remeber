@@ -13,7 +13,7 @@ add entry in fstab
 mount -a
 
 
-====
+==============================
 extending file system
 # create physical volume if not exist
 # you can extend the volume group
@@ -28,7 +28,7 @@ resize2fs
  /dev/mapper/mysql_vg_01-mysql_lv_01
 
 
-===============
+==============================
 vgcreate mysql_vg_01 /dev/sdb1
 lvcreate -n mysql_lv_01 -L2G mysql_vg_01
 mkfs.xfs /dev/mysql_vg_01/mysql_lv_01 ******or****** mkfs.xfs /dev/mapper/mysql_vg_01-mysql_lv_01
