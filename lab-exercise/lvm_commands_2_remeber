@@ -26,3 +26,18 @@ resize2fs
 
 
  /dev/mapper/mysql_vg_01-mysql_lv_01
+
+
+===============
+vgcreate mysql_vg_01 /dev/sdb1
+lvcreate -n mysql_lv_01 -L2G mysql_vg_01
+mkfs.xfs /dev/mysql_vg_01/mysql_lv_01 ******or****** mkfs.xfs /dev/mapper/mysql_vg_01-mysql_lv_01
+mkfs.xfs /dev/mapper/mysql_vg_01-mysql_lv_01
+mkdir /mysql_apps
+	add entry in fstab 
+		/dev/mapper/mysql_vg_01-mysql_lv_01     /mysql_apps     xfs     defaults        0       0
+mount -a
+================
+lvextend -L+2G /dev/mapper/mysql_vg_01-mysql_lv_01
+resize2fs  /dev/mapper/mysql_vg_01-mysql_lv_01	
+====================
