@@ -1,0 +1,28 @@
+fdisk
+t : 8e
+w
+=====
+pvcreate /dev/sdb1 # it will create physical volume
+vgcreate # will create volume group
+lvcreate # will create logical volume
+pvscan | pvs | pvdisplay
+vgscan | vgs | vgdisplay
+lvscan | lvs | lvdisplay
+mkfs.xfs /dev/mapper/<vg_lv> | mkfs.xfs /dev/sdb/sdb1  | both are same
+add entry in fstab
+mount -a
+
+
+====
+extending file system
+# create physical volume if not exist
+# you can extend the volume group
+# extend the logical volume
+
+vgextend
+lvextend
+resize2fs
+<remeber do not give mkfs command on next time >
+
+
+ /dev/mapper/mysql_vg_01-mysql_lv_01
