@@ -1,0 +1,6 @@
+- add 10GB of storage in virtual box
+- create 2 GB of storage and mount in /db_apps using LVM - use xfs file system 
+- create 3 GB of storage in same lvm and extend the LVM file system 
+
+- Note : Volume group name : vg_01
+       : Logical Volume name : LV_01
