@@ -1,0 +1,8 @@
+- create apps folder /
+- create users dev_user db_user admin_user
+- set permission to dev_user as read and write
+- set permission to db_user as write and execute 
+- set permission to admin_user as read, write and execute
+- remove permission for other users
+- create group as mail_group 
+- set permission to mail_group as only read
