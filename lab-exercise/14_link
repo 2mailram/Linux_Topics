@@ -1,0 +1,6 @@
+create folder /apps
+create softlink under /apps_soft1
+create file /random_content
+create hardlink for /random_content to  /hardlink_random_content
+delete the orginal file and folder /apps and /random_content 
+see the difference
