@@ -74,8 +74,9 @@ lvextend
 mkswap
 swapon -a
 swapoff
-partprob 
+partprob
 
+tune2fs -L "app_storage" /dev/hdb1
 e2label /dev/sdb2 "cassandra_db1"
 
 
