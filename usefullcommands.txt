@@ -16,8 +16,8 @@ gpasswd
 usermod
 chown
 chmod
-setfacl
-getfacl
+setfacl -m 
+getfacl 
 >
 >>
 free 
@@ -31,6 +31,8 @@ echo
 env
 man
 help
+ln -s 
+ln 
 
 
 cut
@@ -46,12 +48,9 @@ less
 tail
 head
 more
-
 tr
-
 rpm
 yum
-
 ifconfig
 ip a
 netstat
@@ -62,6 +61,23 @@ ifup
 
 df -h
 du -sh
+fdisk 
+fdisk /dev/<storage name>
+lsblk
+mkfs.ext4
+mkfs.xfs
+pvcreate
+vgcreate
+lvcreate
+vgextend
+lvextend
+mkswap
+swapon -a
+swapoff
+partprob 
+
+e2label /dev/sdb2 "cassandra_db1"
+
 
 
 
