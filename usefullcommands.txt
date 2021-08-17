@@ -5,7 +5,8 @@ pwdx
 ls 
 ll 
 ll -ltrh
-tar
+tar -cvzf
+tar -xvzf
 date
 cal
 useradd
@@ -23,6 +24,7 @@ getfacl
 free 
 top
 ps
+ps -auxf
 htop
 curl
 wget
