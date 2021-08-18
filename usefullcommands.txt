@@ -60,6 +60,13 @@ telnet
 nc
 dig
 ifup
+dhclient enp0s3
+dhclient -v -r enp0s3
+ping google.com
+dig google.com
+nslookup google.com
+host google.com
+telnet google.com 443
 
 df -h
 du -sh
