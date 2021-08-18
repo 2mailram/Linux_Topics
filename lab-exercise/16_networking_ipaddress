@@ -1,0 +1,10 @@
+find what is your ip address range
+take backup of existing network configuration 
+set ip address manually 
+restart the netwok service
+try to connect or ping google.com
+revert the changes 
+restart the network service
+down the network interface
+up the network interface
+find the dns record for centos.org
