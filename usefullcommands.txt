@@ -90,10 +90,12 @@ e2label /dev/sdb2 "cassandra_db1"
 
 eval `ssh-agent` # one time activity | configure agent
 
-ssh-keygen 
-ssh-copyid sshdemo@remotehost
+ssh-keygen  -> secuence enter
 ssh-add -L
 ssh-add
+
+ssh-copyid sshdemo@remotehost
+
 ssh sshdemo@ipaddress
 
 systemctl start sshd
