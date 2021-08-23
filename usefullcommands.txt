@@ -96,6 +96,12 @@ ssh-add -L
 ssh-add
 ssh sshdemo@ipaddress
 
+systemctl start sshd
+systemctl status sshd
+systemctl cat sshd
+systemctl restart sshd
+systemctl reload sshd
+systemctl restart sshd
 
 
 
