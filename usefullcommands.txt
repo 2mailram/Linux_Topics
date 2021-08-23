@@ -88,6 +88,14 @@ partprob
 tune2fs -L "app_storage" /dev/hdb1
 e2label /dev/sdb2 "cassandra_db1"
 
+eval `ssh-agent` # one time activity | configure agent
+
+ssh-keygen 
+ssh-copyid sshdemo@remotehost
+ssh-add -L
+ssh-add
+ssh sshdemo@ipaddress
+
 
 
 
