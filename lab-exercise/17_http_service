@@ -4,3 +4,5 @@
 - verify which port is used by httpd service by default
 - read the logs 
 - understand list of response code from internet
+- open browser hit http://localhost
+- open terminal execute cur http://localhost
