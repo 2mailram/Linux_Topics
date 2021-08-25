@@ -93,10 +93,15 @@ eval `ssh-agent` # one time activity | configure agent
 ssh-keygen  -> secuence enter
 ssh-add -L
 ssh-add
-
 ssh-copyid sshdemo@remotehost
-
 ssh sshdemo@ipaddress
+#if trying to login with same user 
+ssh ipaddress
+scp 
+rsync
+
+
+
 
 systemctl start sshd
 systemctl status sshd
