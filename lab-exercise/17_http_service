@@ -1,0 +1,3 @@
+- install httpd service
+- ensure service should run after reboot
+- deploy simple html application page
