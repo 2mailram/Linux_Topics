@@ -1,0 +1,13 @@
+- consider you are using 2 virtual host but actually you are using 1 virtual box
+- ensure that sshd service should run always, even if reboot as well.
+
+- create user admin1 and admin2 and set password as 1234
+- create sshkeys from admin1 user and push the keys to admin2 user
+- try to login to admin2 user from admin1 user
+- try to copy files from admin1 user to admin2 user 
+- now open a new terminal login as admin2 user 
+- try to login from admin2 user to user1
+
+- list out the files present in admin1 and admin2user ~/.ssh/ folder
+
+- 
