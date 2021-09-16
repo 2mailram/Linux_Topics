@@ -1,0 +1,8 @@
+create shell script to reboot remote host 
+create shell script - if user pass argument as foo it should return bar 
+create infinity loop using while statement
+understand difference between break and exit
+create shell script to replce string in a file using sed or awk
+create shell script to clean virtual memory and it should execute at dayily morning 5AM
+create shell script to restrt the httpd service if already running,  if stopped state do only start the application
+clean the log if reached more then 5 gb under /var/log/httpd
