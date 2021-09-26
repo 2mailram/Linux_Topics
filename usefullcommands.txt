@@ -2,8 +2,8 @@ id
 whoami
 pwd
 pwdx
-ls 
-ll 
+ls
+ll
 ll -ltrh
 tar -cvzf
 tar -xvzf
@@ -17,11 +17,11 @@ gpasswd
 usermod
 chown
 chmod
-setfacl -m 
-getfacl 
+setfacl -m
+getfacl
 >
 >>
-free 
+free
 top
 ps
 ps -auxf
@@ -33,8 +33,8 @@ echo
 env
 man
 help
-ln -s 
-ln 
+ln -s
+ln
 
 
 cut
@@ -70,7 +70,7 @@ telnet google.com 443
 
 df -h
 du -sh
-fdisk 
+fdisk
 fdisk /dev/<storage name>
 lsblk
 mkfs.ext4
@@ -95,9 +95,9 @@ ssh-add -L
 ssh-add
 ssh-copyid sshdemo@remotehost
 ssh sshdemo@ipaddress
-#if trying to login with same user 
+#if trying to login with same user
 ssh ipaddress
-scp 
+scp
 rsync
 
 
@@ -112,4 +112,23 @@ systemctl restart sshd
 
 
 
+#nfs
+yum install nfs-utils
+add entry in /etc/exports
+exportfs
+showmount -e
+add entry in client host in /etc/fstab for mount the network partition
 
+
+
+#runlevels
+systemctl isolate runlevel{1..5}.target
+getenforce
+setenforce
+
+#single usermode
+reboot -> e -> edit the kernel -> in ro section -> modify -> rw init=/sysroot/bin/sh -> ctl+x or f10 -> chroot /sysroot ->
+execute the command or fix the changes or debug the fstab entry or reset the password
+touch /.autorelabel
+reboot
+#reboot will take some time

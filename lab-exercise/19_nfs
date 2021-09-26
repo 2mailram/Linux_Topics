@@ -1,0 +1,11 @@
+#in server side
+install nfs package
+create directory /apps/dev
+share the /apps/dev to entire network
+
+#in client side
+verify the available network drives in your network
+create /common directory
+mount the appropriate directory in /common/dev
+add the files
+verify from server - new files created from client or not
