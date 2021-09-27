@@ -1,0 +1,7 @@
+make your virtual box used under nat network 
+create new kickstart file under /var/www/html/ks.cfg
+start the web service 
+ensure this ks.cfg able to access from browser from other hosts
+add required configuration for building os using ks file
+======
+spin up new virtual box with centos and boot with ks.cfg
