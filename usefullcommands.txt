@@ -8,6 +8,7 @@ ll -ltrh
 tar -cvzf
 tar -xvzf
 date
+date "+%d%b%y%H%M"
 cal
 useradd
 passwd
