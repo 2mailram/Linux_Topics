@@ -1,4 +1,3 @@
-- create yum repo config file for kubernets
 - Install httpd package using YUM
 - uninstall httpd package using YUM
 - Install httpd package using RPM
