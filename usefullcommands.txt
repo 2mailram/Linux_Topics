@@ -81,6 +81,24 @@ vgcreate
 lvcreate
 vgextend
 lvextend
+
+
+create storage from aws console
+pvcreate /dev/xvdf
+vgcreate gp_volume /dev/xvdf
+
+lvcreate -n my_lv -l 100%FREE gp_volume
+
+mkdir /data
+add the mount point on fstab 
+/dev/mapper/gp_volume-my_lv     /data   xfs     defaults 0 0
+
+Aagain extend volume from aws console 
+vgextend gp_volume /dev/xvdf
+lvextend  -l +100%FREE -r  /dev/mapper/gp_volume-my_lv
+
+
+
 mkswap
 swapon -a
 swapoff
